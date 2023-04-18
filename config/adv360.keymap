@@ -79,11 +79,11 @@
 
         layer_Movement {
             bindings = <
-         &trans  &trans  &trans  &trans  &trans  &trans                   &trans                                                               &trans            &trans         &trans       &trans      &trans       &trans           &trans
-        &kp TAB  &trans  &trans  &trans  &trans  &trans                   &trans                                                               &trans       &macro_redo   &macro_paste  &macro_copy  &macro_cut  &macro_undo           &trans
-         &trans  &trans  &trans  &trans  &trans  &trans                   &trans   &trans     &trans  &trans  &trans     &trans     &trans     &trans  &macro_selectall       &kp LEFT     &kp DOWN      &kp UP    &kp RIGHT           &trans
- &kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans                   &trans   &trans     &trans  &trans  &trans     &trans     &trans     &trans          &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP     &kp END       &trans  &kp RIGHT_SHIFT
-         &trans  &trans  &trans  &trans  &trans                    &kp BACKSPACE  &kp DEL  &kp LCTRL                  &kp RCTRL  &kp ENTER  &kp SPACE                           &trans       &trans      &trans       &trans           &trans
+         &trans  &trans  &trans  &trans  &trans  &trans                   &trans                                                               &trans            &trans        &trans         &trans      &trans       &trans           &trans
+        &kp TAB  &trans  &trans  &trans  &trans  &trans                   &trans                                                               &trans       &macro_redo  &macro_paste    &macro_copy  &macro_cut  &macro_undo           &trans
+         &trans  &trans  &trans  &trans  &trans  &trans                   &trans   &trans     &trans  &trans  &trans     &trans     &trans     &trans  &macro_selectall      &kp LEFT       &kp DOWN      &kp UP    &kp RIGHT           &trans
+ &kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans                   &trans   &trans     &trans  &trans  &trans     &trans     &trans     &trans            &trans      &kp HOME  &kp PAGE_DOWN   &kp PG_UP      &kp END  &kp RIGHT_SHIFT
+         &trans  &trans  &trans  &trans  &trans                    &kp BACKSPACE  &kp DEL  &kp LCTRL                  &kp RCTRL  &kp ENTER  &kp SPACE                          &trans         &trans      &trans       &trans           &trans
             >;
         };
 
