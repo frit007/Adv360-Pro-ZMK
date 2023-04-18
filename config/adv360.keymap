@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
-    &tog 5     &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                   &tog 1                                                                &mo 3  &kp N6  &kp N7     &kp N8   &kp N9          &kp N0  &kp MINUS
-   &kp TAB      &kp Q   &kp W   &kp F   &kp P   &kp B                    &none                                                                &none   &kp J   &kp L      &kp U    &kp Y        &kp SEMI   &kp BSLH
-   &kp ESC      &kp A   &kp R   &kp S   &kp T   &kp G                    &none  &kp LCTRL  &kp LALT   &none   &none  &kp LGUI  &kp RCTRL      &none   &kp M   &kp N      &kp E    &kp I           &kp O    &kp SQT
- &kp LSHFT      &kp Z   &kp X   &kp C   &kp D   &kp V                    &none      &none     &mo 4   &none   &none     &mo 2      &none      &none   &kp K   &kp H  &kp COMMA  &kp DOT  &kp UNDERSCORE  &kp RSHFT
-     &mo 2  &kp GRAVE  &trans  &trans  &trans                    &kp BACKSPACE    &kp DEL     &mo 0                     &mo 0  &kp ENTER  &kp SPACE          &trans     &trans   &trans          &trans      &mo 2
+    &tog 5     &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                   &tog 1                                                                      &mo 3  &kp N6  &kp N7     &kp N8   &kp N9          &kp N0  &kp MINUS
+   &kp TAB      &kp Q   &kp W   &kp F   &kp P   &kp B                    &none                                                                      &none   &kp J   &kp L      &kp U    &kp Y        &kp SEMI   &kp BSLH
+   &kp ESC      &kp A   &kp R   &kp S   &kp T   &kp G                    &none  &kp LCTRL   &kp LALT   &none   &none   &kp LGUI  &kp RIGHT_WIN      &none   &kp M   &kp N      &kp E    &kp I           &kp O    &kp SQT
+ &kp LSHFT      &kp Z   &kp X   &kp C   &kp D   &kp V                    &none      &none      &mo 4   &none   &none      &mo 2          &none      &none   &kp K   &kp H  &kp COMMA  &kp DOT  &kp UNDERSCORE  &kp RSHFT
+     &mo 2  &kp GRAVE  &trans  &trans  &trans                    &kp BACKSPACE    &kp DEL  &kp LCTRL                  &kp RCTRL      &kp ENTER  &kp SPACE          &trans     &trans   &trans          &trans      &mo 2
             >;
         };
 
@@ -62,7 +62,7 @@
  &kp F1      &kp F2          &kp F3            &kp F4           &kp F5         &kp F6            &tog 1                                                   &mo 3             &kp F7         &kp F8                &kp F9                &kp F10    &kp F11  &kp F12
  &trans   &kp EQUAL   &kp LESS_THAN  &kp GREATER_THAN  &kp EXCLAMATION   &kp QUESTION             &none                                                   &none  &kp DOUBLE_QUOTES  &kp KP_DIVIDE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS   &trans
  &trans  &kp DOLLAR  &kp LEFT_BRACE   &kp RIGHT_BRACE    &kp KP_DIVIDE  &kp BACKSLASH             &none  &trans  &trans   &none   &none  &trans  &trans   &none   &kp SINGLE_QUOTE       &kp STAR        &kp LEFT_BRACE        &kp RIGHT_BRACE   &kp PLUS   &trans
- &trans    &kp HASH        &kp PIPE         &kp CARET        &kp PRCNT    &kp AT_SIGN             &none   &none  &trans   &none   &none  &trans   &none   &none          &kp CARET      &kp COLON         &kp SEMICOLON               &kp AMPS      &none   &trans
+ &trans    &kp HASH        &kp PIPE         &kp CARET        &kp PRCNT    &kp AT_SIGN             &none   &none  &trans   &none   &none  &trans   &none   &none          &kp CARET      &kp COLON         &kp SEMICOLON               &kp AMPS  &kp TILDE   &trans
  &trans      &trans          &trans            &trans           &trans                           &trans  &trans  &trans                  &trans  &trans  &trans                            &trans                &trans                 &trans     &trans   &trans
             >;
         };
@@ -79,11 +79,11 @@
 
         layer_Movement {
             bindings = <
-         &trans  &trans  &trans  &trans     &trans  &trans            &trans                                                            &trans        &trans         &trans       &trans       &trans  &trans           &trans
-         &trans  &trans  &trans  &trans     &trans  &trans            &trans                                                       &macro_redo  &macro_paste    &macro_copy   &macro_cut  &macro_undo  &trans           &trans
-         &trans  &trans  &trans  &trans  &kp LCTRL  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &macro_selectall      &kp LEFT       &kp DOWN       &kp UP    &kp RIGHT  &trans           &trans
- &kp LEFT_SHIFT  &trans  &trans  &trans     &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans      &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP      &kp END  &trans  &kp RIGHT_SHIFT
-         &trans  &trans  &trans  &trans     &trans                    &trans  &trans  &trans                  &trans   &none             &none                       &trans       &trans       &trans  &trans           &trans
+         &trans  &trans  &trans  &trans     &trans  &trans                   &trans                                                                      &trans        &trans         &trans       &trans       &trans  &trans           &trans
+        &kp TAB  &trans  &trans  &trans     &trans  &trans                   &trans                                                                 &macro_redo  &macro_paste    &macro_copy   &macro_cut  &macro_undo  &trans           &trans
+         &trans  &trans  &trans  &trans  &kp LCTRL  &trans                   &trans   &trans     &trans  &trans  &trans     &trans     &trans  &macro_selectall      &kp LEFT       &kp DOWN       &kp UP    &kp RIGHT  &trans           &trans
+ &kp LEFT_SHIFT  &trans  &trans  &trans     &trans  &trans                   &trans   &trans     &trans  &trans  &trans     &trans     &trans            &trans      &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP      &kp END  &trans  &kp RIGHT_SHIFT
+         &trans  &trans  &trans  &trans     &trans                    &kp BACKSPACE  &kp DEL  &kp LCTRL                  &kp RCTRL  &kp ENTER         &kp SPACE                       &trans       &trans       &trans  &trans           &trans
             >;
         };
 
