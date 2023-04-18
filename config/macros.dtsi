@@ -2,37 +2,55 @@ macro_selectall: macro_selectall{
 compatible = "zmk,behavior-macro";
 label = "macro_selectall";
 #binding-cells = <0>;
-bindings = <&mt LEFT_CONTROL A>;
+bindings 
+  = <&macro_press &kp LCTRL>;
+  <&kp LEFT_CONTROL A>;
+  <&macro_release &kp LCTRL>;
 };
 macro_undo: macro_undo{
 compatible = "zmk,behavior-macro";
 label = "macro_undo";
 #binding-cells = <0>;
-bindings = <&mt LEFT_CONTROL U>;
+bindings 
+  = <&macro_press &kp LCTRL>;
+  <&kp LEFT_CONTROL U>;
+  <&macro_release &kp LCTRL>;
 };
 macro_redo: macro_redo{
 compatible = "zmk,behavior-macro";
 label = "macro_redo";
 #binding-cells = <0>;
-bindings = <&mt LEFT_CONTROL Y>;
+bindings 
+  = <&macro_press &kp LCTRL>;
+  <&kp LEFT_CONTROL Y>;
+  <&macro_release &kp LCTRL>;
 };
 macro_cut: macro_cut{
 compatible = "zmk,behavior-macro";
 label = "macro_cut";
 #binding-cells = <0>;
-bindings = <&mt LEFT_CONTROL X>;
+bindings 
+  = <&macro_press &kp LCTRL>;
+  <&kp LEFT_CONTROL X>;
+  <&macro_release &kp LCTRL>;
 };
 macro_paste: macro_paste{
 compatible = "zmk,behavior-macro";
 label = "macro_paste";
 #binding-cells = <0>;
-bindings = <&mt LEFT_CONTROL V>;
+bindings 
+  = <&macro_press &kp LCTRL>;
+  <&kp LEFT_CONTROL V>;
+  <&macro_release &kp LCTRL>;
 };
 macro_copy: macro_copy{
 compatible = "zmk,behavior-macro";
 label = "macro_copy";
 #binding-cells = <0>;
-bindings = <&mt LCTRL C>;
+bindings 
+= <&macro_press &kp LCTRL>;
+  <&kp LEFT_CONTROL C>;
+  <&macro_release &kp LCTRL>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
