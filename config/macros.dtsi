@@ -137,7 +137,7 @@ swe_ae_morph: swe_ae_morph {
     label = "swe ae morph";
     #binding-cells = <0>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
-    bindings = <&insert_ae_two>, <&insert_ae_two_big>;
+    bindings = <&insert_ae>, <&insert_ae_big>;
 };
 swe_oe_morph: swe_oe_morph {
     compatible = "zmk,behavior-mod-morph";
