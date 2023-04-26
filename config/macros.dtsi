@@ -125,26 +125,26 @@ bindings
 };
 
 
-swe_aa_morph: swe_aa_morph {
+aa_sh: aa_sh {
     compatible = "zmk,behavior-mod-morph";
-    label = "swe ae morph";
+    label = "ae she";
     #binding-cells = <0>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
     bindings = <&insert_aa>, <&insert_aa_big>;
 };
-swe_ae_morph: swe_ae_morph {
+ae_sh: ae_sh {
     compatible = "zmk,behavior-mod-morph";
-    label = "swe ae morph";
+    label = "ae she";
     #binding-cells = <0>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
     bindings = <&insert_ae>, <&insert_ae_big>;
 };
-swe_oe_morph: swe_oe_morph {
+oe_sh: oe_sh {
     compatible = "zmk,behavior-mod-morph";
-    label = "swe oe morph";
+    label = "oe she";
     #binding-cells = <0>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
-    bindings = <&swe_oe>, <&swe_oe_big>;
+    bindings = <&insert_oe>, <&insert_oe_big>;
 };
 
 macro_quotes: macro_quotes{
