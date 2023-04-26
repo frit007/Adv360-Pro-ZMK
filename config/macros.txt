@@ -127,7 +127,7 @@ bindings
 
 macro_aa_sh: macro_aa_sh {
     compatible = "zmk,behavior-mod-morph";
-    label = "ae she";
+    label = "aa she";
     #binding-cells = <0>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
     bindings = <&insert_aa>, <&insert_aa_big>;
