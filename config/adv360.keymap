@@ -82,7 +82,7 @@
          &trans     &trans      &trans        &trans        &trans  &trans                   &trans                                                        &trans       &trans        &trans         &trans      &trans       &trans           &trans
         &kp TAB     &trans      &trans        &trans        &trans  &trans                   &trans                                                        &trans  &macro_redo  &macro_paste    &macro_copy  &macro_cut  &macro_undo           &trans
          &trans  &kp LCTRL  &kp LSHIFT  &kp LEFT_ALT  &kp LEFT_WIN  &trans                   &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans      &kp TAB      &kp LEFT       &kp DOWN      &kp UP    &kp RIGHT           &trans
- &kp LEFT_SHIFT     &trans     &kp TAB        &trans        &trans  &trans                   &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans       &trans      &kp HOME  &kp PAGE_DOWN   &kp PG_UP      &kp END  &kp RIGHT_SHIFT
+ &kp LEFT_SHIFT     &trans     &kp TAB       &kp TAB       &kp TAB  &trans                   &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans       &trans      &kp HOME  &kp PAGE_DOWN   &kp PG_UP      &kp END  &kp RIGHT_SHIFT
          &trans     &trans      &trans        &trans        &trans                    &kp BACKSPACE  &trans  &trans                  &trans  &kp ENTER  &kp SPACE                     &trans         &trans      &trans       &trans           &trans
             >;
         };
