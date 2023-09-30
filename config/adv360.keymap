@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
-   &kp ESC        &kp N1        &kp N2        &kp N3  &kp N4  &kp N5                   &tog 1                                                                             &mo 3  &kp N6  &kp N7     &kp N8   &kp N9          &kp N0  &kp MINUS
-   &kp TAB         &kp Q         &kp W         &kp F   &kp P   &kp B                &kp PSCRN                                                                             &none   &kp J   &kp L      &kp U    &kp Y        &kp SEMI   &kp BSLH
-   &kp ESC         &kp A         &kp R         &kp S   &kp T   &kp G                  &kp INS  &kp LEFT_ALT   &kp LGUI   &none   &none  &kp RIGHT_ALT  &kp RIGHT_WIN      &none   &kp M   &kp N      &kp E    &kp I           &kp O    &kp SQT
- &kp LSHFT         &kp Z         &kp X         &kp C   &kp D   &kp V                    &none         &none    &kp DEL   &none   &none      &kp ENTER          &none      &none   &kp K   &kp H  &kp COMMA  &kp DOT  &kp UNDERSCORE  &kp RSHFT
-     &mo 2  &macro_aa_sh  &macro_ae_sh  &macro_oe_sh   &mo 1                    &kp BACKSPACE         &mo 4  &kp LCTRL                      &kp RCTRL          &mo 2  &kp SPACE           &mo 1     &trans   &trans          &tog 5      &mo 2
+   &kp ESC        &kp N1        &kp N2        &kp N3  &kp N4  &kp N5               &tog 1                                                                                 &mo 3  &kp N6  &kp N7     &kp N8   &kp N9          &kp N0  &kp MINUS
+   &kp TAB         &kp Q         &kp W         &kp F   &kp P   &kp B            &kp PSCRN                                                                                 &none   &kp J   &kp L      &kp U    &kp Y        &kp SEMI   &kp BSLH
+   &kp ESC         &kp A         &kp R         &kp S   &kp T   &kp G              &kp INS  &kp LEFT_ALT       &kp LGUI   &none   &none  &kp RIGHT_ALT  &kp RIGHT_WIN      &none   &kp M   &kp N      &kp E    &kp I           &kp O    &kp SQT
+ &kp LSHFT         &kp Z         &kp X         &kp C   &kp D   &kp V                &none         &none  &kp BACKSPACE   &none   &none     &kp DELETE          &none      &none   &kp K   &kp H  &kp COMMA  &kp DOT  &kp UNDERSCORE  &kp RSHFT
+     &mo 2  &macro_aa_sh  &macro_ae_sh  &macro_oe_sh   &mo 1                    &kp ENTER         &mo 4      &kp LCTRL                      &kp RCTRL          &mo 2  &kp SPACE           &mo 1     &trans   &trans          &tog 5      &mo 2
             >;
         };
 
@@ -79,11 +79,11 @@
 
         layer_Movement {
             bindings = <
-         &trans     &trans      &trans        &trans        &trans  &trans                   &trans                                                        &trans       &trans        &trans         &trans      &trans       &trans           &trans
-        &kp TAB     &trans      &trans        &trans        &trans  &trans                   &trans                                                        &trans  &macro_redo  &macro_paste    &macro_copy  &macro_cut  &macro_undo           &trans
-         &trans  &kp LCTRL  &kp LSHIFT  &kp LEFT_ALT  &kp LEFT_WIN  &trans                   &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans      &kp TAB      &kp LEFT       &kp DOWN      &kp UP    &kp RIGHT           &trans
- &kp LEFT_SHIFT     &trans     &kp TAB       &kp TAB       &kp TAB  &trans                   &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans       &trans      &kp HOME  &kp PAGE_DOWN   &kp PG_UP      &kp END  &kp RIGHT_SHIFT
-         &trans     &trans      &trans        &trans        &trans                    &kp BACKSPACE  &trans  &trans                  &trans  &kp ENTER  &kp SPACE                     &trans         &trans      &trans       &trans           &trans
+         &trans     &trans         &trans        &trans        &trans  &trans            &trans                                                        &trans       &trans        &trans         &trans      &trans       &trans           &trans
+        &kp TAB     &trans  &kp BACKSPACE    &kp DELETE     &kp ENTER  &trans            &trans                                                        &trans  &macro_redo  &macro_paste    &macro_copy  &macro_cut  &macro_undo           &trans
+         &trans  &kp LCTRL     &kp LSHIFT  &kp LEFT_ALT  &kp LEFT_WIN  &trans            &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans      &kp TAB      &kp LEFT       &kp DOWN      &kp UP    &kp RIGHT           &trans
+ &kp LEFT_SHIFT     &trans        &kp TAB       &kp TAB       &kp TAB  &trans            &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans       &trans      &kp HOME  &kp PAGE_DOWN   &kp PG_UP      &kp END  &kp RIGHT_SHIFT
+         &trans     &trans         &trans        &trans        &trans                    &trans  &trans  &trans                  &trans  &kp ENTER  &kp SPACE                     &trans         &trans      &trans       &trans           &trans
             >;
         };
 
